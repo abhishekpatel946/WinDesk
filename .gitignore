@@ -10,4 +10,4 @@ frontend/dist/
 .env
 .DS_Store
 .vercel
-docs/
+docs/private/
