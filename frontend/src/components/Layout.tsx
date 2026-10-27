@@ -84,6 +84,9 @@ export function Layout() {
         <Suspense fallback={<Loading />}>
           <Outlet />
         </Suspense>
+        <footer className="mt-auto border-t border-slate-800 px-4 py-4 text-center text-xs text-slate-500">
+          Made with <span className="text-rose-500" role="img" aria-label="love">❤</span> by Abhishek Patel
+        </footer>
       </div>
     </div>
   );
